@@ -5,6 +5,7 @@ import SearchComponent from './components/SearchComponent'
 import Counter from './components/Counter'
 import ElasticSearch from './components/ElasticSearch' 
 import CustomerSearch from './components/CustomerSearch';
+import Uncontrolledcomponent from './components/Uncontrolledcomponent'
 
 function App() {
   return (
@@ -12,7 +13,8 @@ function App() {
       {/* <SearchComponent></SearchComponent>
       <Counter></Counter> */}
       {/* <ElasticSearch></ElasticSearch> */}
-      <CustomerSearch></CustomerSearch>
+      {/* <CustomerSearch></CustomerSearch> */}
+      <Uncontrolledcomponent></Uncontrolledcomponent>
     </div>
   );
 }
